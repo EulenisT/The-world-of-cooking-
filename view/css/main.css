@@ -1,0 +1,511 @@
+
+/* PAGE INDEX*/
+
+/* GENERAL */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+.header-div{
+    margin-top: 70px;
+    margin-bottom: 110px;
+}
+
+.footer-contact{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+}
+
+.wrapper
+{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    
+    
+}
+
+.title-index{
+    display: flex;
+    justify-content: left;
+    display: inline-block;
+    flex-wrap: wrap;
+    margin-right: 40px;
+    font-size: 23px;
+}
+
+
+.list-1{
+    display: flex;
+    justify-content: right;
+    display: inline-block;
+    flex-wrap: wrap;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+ul li 
+{
+    list-style: none;
+}
+
+.bonjour{
+    color: rgba(75, 74, 74, 0.862);
+    font-weight: bold;
+}
+
+/*JS*/
+
+.descrip {
+    display: none;
+    color:#706e6e;
+  }
+
+.add{
+
+    border-radius: 4px;
+    border: 2px solid rgba(221, 221, 221, 0.875);
+    background-color: rgba(221, 221, 221, 0.805) ;
+    padding: 0px 3px;
+    color:rgb(55, 55, 55);
+    margin-left: 10px;
+    margin-bottom: 7px;
+}
+
+.add:hover
+{
+    border-color: coral;
+    background-color: coral;
+    color: white;
+}  
+
+.del{
+
+    border-radius: 4px;
+    border: 2px solid rgba(221, 221, 221, 0.875);
+    background-color: rgba(221, 221, 221, 0.805) ;
+    padding: 0px 3px;
+    color:rgb(55, 55, 55);
+    margin-left: 10px;
+    margin-bottom: 7px;
+}
+
+.del:hover
+{
+    border-color: coral;
+    background-color: coral;
+    color: white;
+} 
+
+.del_cart{
+
+    border-radius: 4px;
+    border: 2px solid rgba(221, 221, 221, 0.875);
+    background-color: rgba(221, 221, 221, 0.805) ;
+    padding: 0px 3px;
+    color:rgb(55, 55, 55);
+
+}
+
+.del_cart:hover
+{
+    border-color: coral;
+    background-color: coral;
+    color: white;
+} 
+
+/* HEADER */
+
+header {
+    height: 50px;
+}
+
+header h1 {
+    
+    margin-top: 37px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(4, 4, 4);
+
+}
+
+.point-1{
+    color:coral;
+    font-size: 40px;
+}
+
+header nav {
+    
+    margin-top: 60px;
+    
+}
+
+header nav ul li {
+   
+    display: inline-block;
+}
+
+header nav ul li a {
+
+    color: rgba(75, 74, 74, 0.862);
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 20px ;
+}
+
+a:hover{
+    color: coral;
+}
+
+.recherche{
+    border-radius: 4px;
+    border: 2px solid #ddd;   
+    margin-right: 10px;
+}
+
+.bouton-1
+{
+    border-radius: 4px;
+    border: 2px solid rgb(86, 86, 86);
+    background-color:rgb(91, 89, 89) ;
+    padding: 0px 3px;
+    color:rgb(255, 255, 255);
+}
+
+.bouton-1:hover{
+    border: 2px solid rgb(255, 117, 19);
+    background-color: coral;
+    color: white;
+}
+
+.affiches{
+    margin-left: -80px;
+}
+
+/* OPTIONS */
+
+.img-cuisine
+{
+    width: 200px;
+    height: 170px;
+}
+
+
+.articles{
+    padding: 15px;
+    border: 5px solid;
+    border-color: rgba(252, 249, 249, 0.575);
+    height: 300px;
+    width: 240px;
+    margin: 5px;
+    display: table;
+    text-align: center;
+}
+
+.description {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: rgb(93, 91, 91);
+    display: table-row;
+    margin: 0;
+    padding: 0 1rem;
+    vertical-align: middle;
+}
+
+
+
+.conteneur{
+
+    display: flex;  
+    flex-direction:row;
+    flex-wrap: wrap;   
+    gap: 20px; 
+    justify-content: center;
+}
+
+
+
+.button-articles{
+
+    border-radius: 4px;
+    border: 2px solid rgba(221, 221, 221, 0.875);
+    background-color: rgba(221, 221, 221, 0.805) ;
+    padding: 0px 3px;
+    color:rgb(55, 55, 55);
+    margin-left: 10px;
+}
+
+.button-articles:hover
+{
+    border-color: coral;
+    background-color: coral;
+    color: white;
+}
+
+.prix {
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(84, 84, 84);
+    padding-bottom: 3px;
+}
+
+h4{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: chocolate;
+    margin-bottom: 10px;
+}
+
+.euro 
+{
+    font-size: 13px;
+    color: rgba(114, 114, 114, 0.882);
+}
+
+
+
+/* IDENTIFIEZ-VOUS */
+
+#Identifiez-vous
+{
+    padding: 60px 0;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#Identifiez-vous h3
+{
+    width: 400px;
+    text-transform: uppercase;
+    margin: 0 auto 20px auto;
+    border-bottom: 1px solid coral ;
+    padding-bottom: 20px ;
+    
+}
+
+#Identifiez-vous p {
+    color: rgb(76, 79, 79);
+}
+
+form
+{
+    margin: 60px 0 20px 0;
+}
+
+.contact
+{
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+    color: rgb(91, 91, 91);
+}
+
+
+.button-2
+{
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 3px;
+    background-color: #4f4e4e;
+    border-style: none;
+    border-radius: 3px;
+}
+
+.button-2:hover
+{
+    color: #fff;
+    background-color: coral;
+}
+
+
+/* FORM */
+
+.conten{
+    display: flex;  
+    flex-direction:row;
+    flex-wrap: wrap;  
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+
+
+.formulaire {
+
+   display: flex; 
+   flex-direction:row;
+   flex-wrap: wrap;
+   padding-left: 25px;
+   padding-right: 110px; 
+  
+
+} 
+
+form h5 {
+    font-family:'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    color:chocolate;
+}
+
+.choix {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(83, 83, 83);
+}
+
+
+.boxform {
+padding-left: 50px;
+height: 10px;
+display: table;
+text-align: left;
+
+}
+
+.boxprix {
+    margin-top: -60px;
+}
+/* FOOTER */
+
+html {
+   height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+footer
+{   
+    
+    height: 200px;
+    background-color: rgba(96, 95, 95, 0.918);
+    margin-top: auto;
+    width: 100%; 
+    
+}
+
+footer h1
+{
+    color: rgb(255, 255, 255);
+    
+}
+
+.copyright
+{
+   margin-top: 50px;
+   font-weight: bold;
+   color: rgb(181, 181, 181); 
+   text-align: center;
+}
+
+
+ /*PAGES PANIER ET COMMANDE*/
+
+table{
+    
+    margin-top: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    
+}
+
+ .panier-commande-div{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+ }
+
+ table, th, td{
+    border: rgb(120, 116, 116) solid 1px;
+    border-collapse: collapse;
+    
+    
+   
+    
+ }
+
+
+ th, td{
+    padding: 7px;
+    text-align: center;
+    color: #534f4f;
+ }
+
+ th{
+    color: rgb(233, 127, 51);
+ }
+
+ .title-panier-com{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid coral;
+    width: 300px;
+    text-align: center;
+    color: #444;   
+ }
+
+ .link-panier-com{
+    width: 140px;
+    height: 20px;
+    background-color: coral;
+    text-align: center;
+    border-radius: 3px;
+    margin-bottom: 50px;
+ }
+
+ .link-panier-com:hover{
+    background-color: rgb(111, 110, 110);  
+ }
+
+ #facturer{
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    
+ }
+
+ /* PAGE A PROPOS*/
+
+ .artilce-à-propos{
+    text-align: left;
+    margin-top: 65px;
+    margin-left: 30px;
+    margin-right: 50px;
+    margin-bottom: 50px;   
+}
+
+ .title-livrable{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(233, 127, 51);
+    
+ }
+
+ .à-propos ul{
+    color: rgb(22, 21, 21);
+ }
+
+ .à-propos ul li {
+    color:#444;
+ }
